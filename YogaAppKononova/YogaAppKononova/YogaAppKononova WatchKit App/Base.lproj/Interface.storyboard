@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19455" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="YogaAppKononova_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label height="23" alignment="center" verticalAlignment="center" text="name" id="Fp3-Gy-EYV">
+                            <color key="textColor" name="White"/>
+                        </label>
+                        <imageView width="50" height="50" alignment="center" verticalAlignment="center" image="poza1" id="viV-gQ-Xde">
+                            <color key="tintColor" name="White"/>
+                        </imageView>
+                        <timer alignment="center" verticalAlignment="center" id="IN0-rQ-cME"/>
+                    </items>
+                    <connections>
+                        <outlet property="image" destination="viV-gQ-Xde" id="cRv-2N-HLI"/>
+                        <outlet property="name" destination="Fp3-Gy-EYV" id="3DL-Qv-L0X"/>
+                        <outlet property="timer" destination="IN0-rQ-cME" id="cPN-9r-lny"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-26" y="-44"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="poza1" width="64" height="64"/>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

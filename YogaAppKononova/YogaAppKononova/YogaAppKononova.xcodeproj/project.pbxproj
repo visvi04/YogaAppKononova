@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FBBEA31278EAE4E00AA1374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBEA30278EAE4E00AA1374 /* AppDelegate.swift */; };
+		3FBBEA33278EAE4E00AA1374 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBEA32278EAE4E00AA1374 /* SceneDelegate.swift */; };
+		3FBBEA35278EAE4E00AA1374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBEA34278EAE4E00AA1374 /* ViewController.swift */; };
+		3FBBEA38278EAE4E00AA1374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBEA36278EAE4E00AA1374 /* Main.storyboard */; };
+		3FBBEA3A278EAE4F00AA1374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBEA39278EAE4F00AA1374 /* Assets.xcassets */; };
+		3FBBEA3D278EAE4F00AA1374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBEA3B278EAE4F00AA1374 /* LaunchScreen.storyboard */; };
+		3FBBEA42278EAE4F00AA1374 /* YogaAppKononova WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3FBBEA41278EAE4F00AA1374 /* YogaAppKononova WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FBBEA48278EAE4F00AA1374 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBEA46278EAE4F00AA1374 /* Interface.storyboard */; };
+		3FBBEA4A278EAE5100AA1374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBEA49278EAE5100AA1374 /* Assets.xcassets */; };
+		3FBBEA50278EAE5100AA1374 /* YogaAppKononova WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3FBBEA4F278EAE5100AA1374 /* YogaAppKononova WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FBBEA55278EAE5100AA1374 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBEA54278EAE5100AA1374 /* InterfaceController.swift */; };
+		3FBBEA57278EAE5100AA1374 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBEA56278EAE5100AA1374 /* ExtensionDelegate.swift */; };
+		3FBBEA59278EAE5100AA1374 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBEA58278EAE5100AA1374 /* ComplicationController.swift */; };
+		3FBBEA5B278EAE5200AA1374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBEA5A278EAE5200AA1374 /* Assets.xcassets */; };
+		3FD8A0442795961B0090931E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8A0432795961B0090931E /* TableViewController.swift */; };
+		3FD8A04627959A270090931E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8A04527959A270090931E /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FBBEA43278EAE4F00AA1374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBBEA25278EAE4E00AA1374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBBEA40278EAE4F00AA1374;
+			remoteInfo = "YogaAppKononova WatchKit App";
+		};
+		3FBBEA51278EAE5100AA1374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBBEA25278EAE4E00AA1374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBBEA4E278EAE5100AA1374;
+			remoteInfo = "YogaAppKononova WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FBBEA62278EAE5200AA1374 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3FBBEA50278EAE5100AA1374 /* YogaAppKononova WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBBEA66278EAE5200AA1374 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3FBBEA42278EAE4F00AA1374 /* YogaAppKononova WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FBBEA2D278EAE4E00AA1374 /* YogaAppKononova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaAppKononova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBBEA30278EAE4E00AA1374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FBBEA32278EAE4E00AA1374 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FBBEA34278EAE4E00AA1374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FBBEA37278EAE4E00AA1374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FBBEA39278EAE4F00AA1374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBBEA3C278EAE4F00AA1374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FBBEA3E278EAE4F00AA1374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBBEA41278EAE4F00AA1374 /* YogaAppKononova WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YogaAppKononova WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBBEA47278EAE4F00AA1374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3FBBEA49278EAE5100AA1374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBBEA4F278EAE5100AA1374 /* YogaAppKononova WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YogaAppKononova WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBBEA54278EAE5100AA1374 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3FBBEA56278EAE5100AA1374 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3FBBEA58278EAE5100AA1374 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3FBBEA5A278EAE5200AA1374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBBEA5C278EAE5200AA1374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD8A0432795961B0090931E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3FD8A04527959A270090931E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FBBEA2A278EAE4E00AA1374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBBEA4C278EAE5100AA1374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FBBEA24278EAE4E00AA1374 = {
+			isa = PBXGroup;
+			children = (
+				3FBBEA2F278EAE4E00AA1374 /* YogaAppKononova */,
+				3FBBEA45278EAE4F00AA1374 /* YogaAppKononova WatchKit App */,
+				3FBBEA53278EAE5100AA1374 /* YogaAppKononova WatchKit Extension */,
+				3FBBEA2E278EAE4E00AA1374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FBBEA2E278EAE4E00AA1374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FBBEA2D278EAE4E00AA1374 /* YogaAppKononova.app */,
+				3FBBEA41278EAE4F00AA1374 /* YogaAppKononova WatchKit App.app */,
+				3FBBEA4F278EAE5100AA1374 /* YogaAppKononova WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FBBEA2F278EAE4E00AA1374 /* YogaAppKononova */ = {
+			isa = PBXGroup;
+			children = (
+				3FD8A0432795961B0090931E /* TableViewController.swift */,
+				3FD8A04527959A270090931E /* TableViewCell.swift */,
+				3FBBEA30278EAE4E00AA1374 /* AppDelegate.swift */,
+				3FBBEA32278EAE4E00AA1374 /* SceneDelegate.swift */,
+				3FBBEA34278EAE4E00AA1374 /* ViewController.swift */,
+				3FBBEA36278EAE4E00AA1374 /* Main.storyboard */,
+				3FBBEA39278EAE4F00AA1374 /* Assets.xcassets */,
+				3FBBEA3B278EAE4F00AA1374 /* LaunchScreen.storyboard */,
+				3FBBEA3E278EAE4F00AA1374 /* Info.plist */,
+			);
+			path = YogaAppKononova;
+			sourceTree = "<group>";
+		};
+		3FBBEA45278EAE4F00AA1374 /* YogaAppKononova WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3FBBEA46278EAE4F00AA1374 /* Interface.storyboard */,
+				3FBBEA49278EAE5100AA1374 /* Assets.xcassets */,
+			);
+			path = "YogaAppKononova WatchKit App";
+			sourceTree = "<group>";
+		};
+		3FBBEA53278EAE5100AA1374 /* YogaAppKononova WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3FBBEA54278EAE5100AA1374 /* InterfaceController.swift */,
+				3FBBEA56278EAE5100AA1374 /* ExtensionDelegate.swift */,
+				3FBBEA58278EAE5100AA1374 /* ComplicationController.swift */,
+				3FBBEA5A278EAE5200AA1374 /* Assets.xcassets */,
+				3FBBEA5C278EAE5200AA1374 /* Info.plist */,
+			);
+			path = "YogaAppKononova WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FBBEA2C278EAE4E00AA1374 /* YogaAppKononova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBBEA67278EAE5200AA1374 /* Build configuration list for PBXNativeTarget "YogaAppKononova" */;
+			buildPhases = (
+				3FBBEA29278EAE4E00AA1374 /* Sources */,
+				3FBBEA2A278EAE4E00AA1374 /* Frameworks */,
+				3FBBEA2B278EAE4E00AA1374 /* Resources */,
+				3FBBEA66278EAE5200AA1374 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBBEA44278EAE4F00AA1374 /* PBXTargetDependency */,
+			);
+			name = YogaAppKononova;
+			productName = YogaAppKononova;
+			productReference = 3FBBEA2D278EAE4E00AA1374 /* YogaAppKononova.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FBBEA40278EAE4F00AA1374 /* YogaAppKononova WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBBEA63278EAE5200AA1374 /* Build configuration list for PBXNativeTarget "YogaAppKononova WatchKit App" */;
+			buildPhases = (
+				3FBBEA3F278EAE4F00AA1374 /* Resources */,
+				3FBBEA62278EAE5200AA1374 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBBEA52278EAE5100AA1374 /* PBXTargetDependency */,
+			);
+			name = "YogaAppKononova WatchKit App";
+			productName = "YogaAppKononova WatchKit App";
+			productReference = 3FBBEA41278EAE4F00AA1374 /* YogaAppKononova WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3FBBEA4E278EAE5100AA1374 /* YogaAppKononova WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBBEA5F278EAE5200AA1374 /* Build configuration list for PBXNativeTarget "YogaAppKononova WatchKit Extension" */;
+			buildPhases = (
+				3FBBEA4B278EAE5100AA1374 /* Sources */,
+				3FBBEA4C278EAE5100AA1374 /* Frameworks */,
+				3FBBEA4D278EAE5100AA1374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YogaAppKononova WatchKit Extension";
+			productName = "YogaAppKononova WatchKit Extension";
+			productReference = 3FBBEA4F278EAE5100AA1374 /* YogaAppKononova WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FBBEA25278EAE4E00AA1374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3FBBEA2C278EAE4E00AA1374 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3FBBEA40278EAE4F00AA1374 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3FBBEA4E278EAE5100AA1374 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FBBEA28278EAE4E00AA1374 /* Build configuration list for PBXProject "YogaAppKononova" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FBBEA24278EAE4E00AA1374;
+			productRefGroup = 3FBBEA2E278EAE4E00AA1374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FBBEA2C278EAE4E00AA1374 /* YogaAppKononova */,
+				3FBBEA40278EAE4F00AA1374 /* YogaAppKononova WatchKit App */,
+				3FBBEA4E278EAE5100AA1374 /* YogaAppKononova WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FBBEA2B278EAE4E00AA1374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBBEA3D278EAE4F00AA1374 /* LaunchScreen.storyboard in Resources */,
+				3FBBEA3A278EAE4F00AA1374 /* Assets.xcassets in Resources */,
+				3FBBEA38278EAE4E00AA1374 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBBEA3F278EAE4F00AA1374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBBEA4A278EAE5100AA1374 /* Assets.xcassets in Resources */,
+				3FBBEA48278EAE4F00AA1374 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBBEA4D278EAE5100AA1374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBBEA5B278EAE5200AA1374 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FBBEA29278EAE4E00AA1374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD8A04627959A270090931E /* TableViewCell.swift in Sources */,
+				3FBBEA35278EAE4E00AA1374 /* ViewController.swift in Sources */,
+				3FBBEA31278EAE4E00AA1374 /* AppDelegate.swift in Sources */,
+				3FBBEA33278EAE4E00AA1374 /* SceneDelegate.swift in Sources */,
+				3FD8A0442795961B0090931E /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBBEA4B278EAE5100AA1374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBBEA57278EAE5100AA1374 /* ExtensionDelegate.swift in Sources */,
+				3FBBEA55278EAE5100AA1374 /* InterfaceController.swift in Sources */,
+				3FBBEA59278EAE5100AA1374 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FBBEA44278EAE4F00AA1374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBBEA40278EAE4F00AA1374 /* YogaAppKononova WatchKit App */;
+			targetProxy = 3FBBEA43278EAE4F00AA1374 /* PBXContainerItemProxy */;
+		};
+		3FBBEA52278EAE5100AA1374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBBEA4E278EAE5100AA1374 /* YogaAppKononova WatchKit Extension */;
+			targetProxy = 3FBBEA51278EAE5100AA1374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FBBEA36278EAE4E00AA1374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBBEA37278EAE4E00AA1374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FBBEA3B278EAE4F00AA1374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBBEA3C278EAE4F00AA1374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3FBBEA46278EAE4F00AA1374 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBBEA47278EAE4F00AA1374 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FBBEA5D278EAE5200AA1374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FBBEA5E278EAE5200AA1374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3FBBEA60278EAE5200AA1374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YogaAppKononova WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YogaAppKononova WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.YogaAppKononova.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3FBBEA61278EAE5200AA1374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YogaAppKononova WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YogaAppKononova WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.YogaAppKononova.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3FBBEA64278EAE5200AA1374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = YogaAppKononova_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "YogaAppKononova WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = ru.YogaAppKononova;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.YogaAppKononova.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3FBBEA65278EAE5200AA1374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = YogaAppKononova_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "YogaAppKononova WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = ru.YogaAppKononova;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.YogaAppKononova.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3FBBEA68278EAE5200AA1374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaAppKononova/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.YogaAppKononova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FBBEA69278EAE5200AA1374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaAppKononova/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.YogaAppKononova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FBBEA28278EAE4E00AA1374 /* Build configuration list for PBXProject "YogaAppKononova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBBEA5D278EAE5200AA1374 /* Debug */,
+				3FBBEA5E278EAE5200AA1374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBBEA5F278EAE5200AA1374 /* Build configuration list for PBXNativeTarget "YogaAppKononova WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBBEA60278EAE5200AA1374 /* Debug */,
+				3FBBEA61278EAE5200AA1374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBBEA63278EAE5200AA1374 /* Build configuration list for PBXNativeTarget "YogaAppKononova WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBBEA64278EAE5200AA1374 /* Debug */,
+				3FBBEA65278EAE5200AA1374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBBEA67278EAE5200AA1374 /* Build configuration list for PBXNativeTarget "YogaAppKononova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBBEA68278EAE5200AA1374 /* Debug */,
+				3FBBEA69278EAE5200AA1374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FBBEA25278EAE4E00AA1374 /* Project object */;
+}
